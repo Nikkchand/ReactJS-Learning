@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  color: #fff;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  margin:20px;
+  border-radius: 10px;
+  background-color:crimson;
+  padding: 20px;
+}
+
+.nav{
+  background-color: black;
+}
