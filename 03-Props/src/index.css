@@ -33,7 +33,8 @@ body{
   margin: 20px 0;
 }
 .card{
-  width: 300px;
+  height: 380px;
+  width: 380px;
   text-align: center;
   background-color: #222;
   border: 1px solid white;
@@ -41,6 +42,7 @@ body{
   padding: 20px;
 }
 .card button{
+  margin: 20px;
   padding: 10px 20px;
   background-color: white;
   color: black;

@@ -1,0 +1,12 @@
+btn{
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    margin: 10px;
+    display: flex;
+
+}
+.nav{
+color:rgb(19, 28, 125);
+    display: flex;
+    justify-content: space-evenly;
+}
