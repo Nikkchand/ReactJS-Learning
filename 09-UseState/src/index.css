@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  background-color: rgb(138, 90, 205);
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  margin: 10px 20px;
+  padding: 10px;
+  background: #333;
+  color: aliceblue;
+  display: flex;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  /* width: fit-content; */
+  margin: 15px 30px;
+  padding: 50px;
+  background-color: azure;
+}
