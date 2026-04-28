@@ -48,7 +48,7 @@ const App = () => {
             setTitle(e.target.value)
           }}
         />
-
+        
         {/* DETAILED VALA INPUT  */}
         <textarea
           type="text"
