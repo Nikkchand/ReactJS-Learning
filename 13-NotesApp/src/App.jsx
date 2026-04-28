@@ -30,7 +30,7 @@ const App = () => {
   }
 
   return (
-    <div className='h-screen lg:flex bg-black text-white'>
+    <div className='h-screen lg:flex bg-cover bg-[url(https://images.unsplash.com/photo-1647346425804-34383b95644b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhY2tncm91bmQlMjBpbWFnZSUyMGZvciUyMG5vdGVzJTIwYXBwfGVufDB8fDB8fHww)] text-white'>
 
       <form onSubmit={(e) => {
         submitHandler(e)
@@ -42,7 +42,7 @@ const App = () => {
         <input
           type="text"
           placeholder='Enter Notes Heading'
-          className='px-5 w-full font-medium py-2 border-2 outline-none rounded '
+          className='px-5 w-full font-medium py-2 border-2 outline-none rounded'
           value={title}
           onChange={(e) => {
             setTitle(e.target.value)
@@ -67,6 +67,8 @@ const App = () => {
         </button>
 
       </form>
+
+
       <div className='lg:w-1/2 lg:border-l-2  p-10'>
         <h1 className='text-4xl font-bold'>Recent Notes</h1>
         <div className='flex flex-wrap items-start justify-start gap-5 mt-6 h-[90%] overflow-auto'>
